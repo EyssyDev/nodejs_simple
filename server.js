@@ -93,3 +93,4 @@ app.get('/Galgo', (req, res)=>{
 app.listen(app.get('port'), ()=>{
     console.log('server running on port', app.get('port'))
 })
+// Recuerda iniciar la API con npm run start.
