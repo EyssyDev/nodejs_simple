@@ -6,7 +6,7 @@ app.set('port', process.env.PORT || 7000)
 app.use(express.json())
 
 app.get('/', (req, res)=>{
-    res.send('La API esta funciona correctamente, ingrese la raza de un perro para saber mas de esta.')
+    res.send('Christiano Ronaldo.')
 })
 
 app.get('/Bulldog', (req, res)=>{
